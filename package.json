@@ -1,0 +1,23 @@
+{
+  "name": "ai-cloawed",
+  "version": "1.0.0",
+  "description": "AI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pathapongoo11/Ai-cloawed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pathapongoo11/Ai-cloawed/issues"
+  },
+  "homepage": "https://github.com/Pathapongoo11/Ai-cloawed#readme",
+  "dependencies": {
+    "openclaw": "^0.0.1"
+  }
+}

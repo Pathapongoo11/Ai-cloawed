@@ -1,0 +1,23 @@
+services:
+  openclaw:
+    build: .
+    ports:
+      - "18789:18789"
+    env_file:
+      - .env
+    volumes:
+      - openclaw-data:/root/.openclaw
+    restart: unless-stopped
+
+  # Optional: Ollama for local AI (uncomment to use)
+  # ollama:
+  #   image: ollama/ollama:latest
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama-data:/root/.ollama
+  #   restart: unless-stopped
+
+volumes:
+  openclaw-data:
+  # ollama-data:
